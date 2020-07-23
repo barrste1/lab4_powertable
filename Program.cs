@@ -56,7 +56,7 @@ namespace _07222020_powertableslab_lab4
         {
             Console.WriteLine("Number\t\tSquared\t\tCubed");
             Console.WriteLine("=======\t\t=======\t\t=======");
-            for(int i = 1; i<input;i++)
+            for(int i = 1; i<=input;i++)
             {
                 Console.WriteLine($"{i}\t\t{i * i}\t\t{i * i * i}");
             }
